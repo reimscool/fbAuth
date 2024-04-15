@@ -26,7 +26,6 @@ final class AuthService {
         } catch {
 
             }
-        }
     }
     
     func signInWithEmail(email: String, password: String) async throws {
